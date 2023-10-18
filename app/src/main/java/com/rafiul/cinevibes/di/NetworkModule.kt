@@ -50,6 +50,4 @@ class NetworkModule {
     fun providesMovieServices(retrofitBuilder: Retrofit.Builder): MovieServices {
         return retrofitBuilder.build().create(MovieServices::class.java)
     }
-
-
 }
